@@ -1,0 +1,24 @@
+body,html
+{ 
+    height: 675px;
+    background-image: "Tooth-Types_Adult_Web.png";
+    background-position: center;
+}
+#bg{
+    height: 675px;
+    background-image: url("Teeth.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/*rgb(115,121,111) lead
+#9f4f4c flesh*/

@@ -1,0 +1,60 @@
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#search-place
+{
+    width: 100px;
+    border: 1px solid black;
+    display:inline-block;
+}
+#search-box
+{
+    border-right:none;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.15);
+}
+#serach-button-img
+{
+    width: 20px;
+    height: 20px;
+    display:inline-block; 
+}
+#search-button-box
+{
+    border-left:none;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.15);
+}
+#Liste_Des_Fiches_Box
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.15);
+}
+#N_et_P_Box
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.15);
+}
+#N°_Box
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.15);
+}
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(46, 46, 161, 0.05);
+}

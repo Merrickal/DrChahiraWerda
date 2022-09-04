@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <script src="Ficha-End-Code.js"></script>
+        <link rel="stylesheet" href="Ficha-End-style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--<meta http-equiv="refresh" content="3; url=https://google.com/">-->
+    </head>
+    <body class="w3-animate-opacity">
+        <div>
+            <table>
+                <tr>
+                    <th id="DR_Box">
+                        <h4 id="DR">DrWerda CHahira</h4>
+                    </th>
+                    <th id="Fiche_Patient_Box">
+                        <h1>Fiche Patient</h1>
+                    </th>
+                    <th>
+                        <h3>N°Fiche:</h3>
+                        <p id="Date_De_La_Premiere_Viste"></p>
+                    </th>
+                </tr> 
+                    <tr>
+                        <th>Nom</th>
+                            <td colspan="2" >
+                                <span id="textarea" data-text="true" contenteditable></span>
+                            </td>
+                    </tr>
+                <tr>
+                    <th>Prenom</th>
+                    <div id="Nom">
+                        <td colspan="2" >
+                            <span id="textarea" data-text="true" contenteditable></span>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <th>Date de naissance</th>
+                    <div id="Nom">
+                        <td colspan="2" >
+                            <span id="textarea" data-text="true" contenteditable></span>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <th>téléphone</th>
+                    <div id="Nom">
+                        <td colspan="2" >
+                            <span id="textarea" data-text="true" contenteditable></span>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <th>profession</th>
+                    <div id="Nom">
+                        <td colspan="2" >
+                            <span id="textarea" data-text="true" contenteditable></span>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <th colspan="3" id="th">
+                        <h2>observation</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="3" >
+                        <span id="Obs_Text" data-text="true" contenteditable></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="Inter_table">
+                <tr>
+                    <th>Date</th>
+                    <th>Nature des interventions</th>
+                    <th>Doit</th>
+                    <th colspan="2">Reçu</th>
+                </tr>
+                <tr>
+                    <td id="Date" >
+                        <span id="Date_Text" data-text="true" contenteditable></span>
+                    </td>
+                    <td id="Inter">
+                        <span id="Inter_Text" data-text="true" contenteditable></span>
+                    </td>
+                    <td id="Need">
+                        <span id="Need_Text" data-text="true" contenteditable></span>
+                    </td>
+                    <td id="Paid">
+                        <span id="Paid_Text" data-text="true" contenteditable></span>
+                    </td>
+                    <td>
+                        <label style="font-family:'Times New Roman', Times, serif ;">DT</label>
+                    </td>
+                </tr>
+                <table id="Paid_table">
+                    <tr >
+                        <th colspan="2">Reste à payer</th> 
+                    </tr>
+                    <tr>
+                        <th id="rem" ></th>
+                        <th style="width:2% ;">
+                            <label style="font-family:'Times New Roman', Times, serif ; ">DT</label>
+                        </th>
+                    </tr>
+                </table>
+            </table>
+            
+            <button role="link" onclick="switch_to_Teeth()">Dents</button>
+            <button role="link"  id="Edit">Edit</button>
+            <button role="link" onclick="save()" id="Save">Save</button>
+      </div>
+      
+  </body>
+</html>

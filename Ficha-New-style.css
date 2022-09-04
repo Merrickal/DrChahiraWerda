@@ -1,0 +1,112 @@
+table
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+
+}
+#DR
+{
+    font-family:"cusive","Lucida Handwriting";
+    height: auto;
+}
+td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 1250px;
+}
+tr
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    width: 100px;
+}
+th
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 100px;
+}
+#Fiche_Patient_Box
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 1000px;
+}
+#DR_Box
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 178px;
+}
+#Obs_Text
+{
+    display: block; 
+    min-height: 100px; 
+    width: 500px;
+    resize: auto;
+    overflow: visible;
+    background-color: rgb(118, 118, 167,0.05);
+} 
+#textarea
+{
+    display: block; 
+    padding: 5px; 
+    width: 100%;
+    resize: auto;
+    overflow: visible;
+    background-color: rgb(118, 118, 167,0.05);
+}
+
+
+
+
+
+
+/*table,td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%; 
+}
+#DR
+{
+    font-family:"cusive","Lucida Handwriting";
+    height: auto;
+}
+tr,th
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+}
+#Text
+{
+    border:0px;
+    width: 99.70%;
+    height: auto;
+}
+#Obs_Text
+{
+    display: block; 
+    min-height: 55px; 
+    width: 1311.5px;
+    resize: auto;
+    overflow: visible;
+} 
+#textarea
+{
+    display: block; 
+    padding: 5px; 
+    width: 1135px;
+    resize: auto;
+    overflow: visible;
+}/*

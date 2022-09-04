@@ -1,0 +1,145 @@
+::-webkit-scrollbar
+{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+    background: #888; 
+}
+table
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+
+}
+#DR
+{
+    font-family:"typeface,story book";
+    height: auto;
+}
+td
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 1250px;
+}
+tr
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    width: 100px;
+}
+th
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 100px;
+}
+#Fiche_Patient_Box
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 1000px;
+}
+#DR_Box
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    height: auto;
+    background-color: rgb(118, 118, 167,0.15);
+    width: 178px;
+}
+#Obs_Text
+{
+    display: block; 
+    min-height: 100px; 
+    width: 99.8vw;
+    resize: auto;
+    overflow: visible;
+    background-color: rgb(118, 118, 167,0.05);
+} 
+#textarea
+{
+    display: block; 
+    padding: 5px; 
+    width: inherit;
+    resize: auto;
+    overflow: visible;
+    background-color: rgb(118, 118, 167,0.05);
+}
+#Inter_table
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    background-color: rgb(118, 118, 167,0.05); 
+    height: fit-content;
+}
+#Inter
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 74vw;
+}
+#Date,#Need,#Paid
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 6vw;
+    background-color: rgb(118, 118, 167,0.05); 
+}
+#Date_Text,#Need_Text,#Paid_Text
+{
+    display: block; 
+    resize: auto;
+    overflow: visible;
+    width: 7.3vw;
+    min-height: 25px;
+    background-color: rgb(118, 118, 167,0.03);
+    text-align: center;
+    font-size:  20px;
+}
+#Need_Text
+{
+    min-height: 28px;
+}
+#Inter_Text
+{
+    display: block; 
+    resize: auto;
+    overflow: visible;
+    width: inherit;
+    /* min-height: 25px; */
+    background-color: rgb(118, 118, 167,0.03);
+    border: 0px;
+    font-size:  20px;
+    min-height: 28px;
+}
+#Paid_table
+{
+    float: right;
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 18.25vw;
+    background-color: rgb(118, 118, 167,0.05); 
+}
+#p
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    border-right: none;
+    width: inherit;
+    text-align:center;
+}
+#Save_Table
+{
+    border:1px solid black;
+    width: 1000px;
+    background-color: rgb(118, 118, 167,0.05); 
+}

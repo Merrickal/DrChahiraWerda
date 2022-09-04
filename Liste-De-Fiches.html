@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="Liste-De-Fiches.js"></script>
+    <link rel="stylesheet" href="Liste-De-Fiches.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body class="w3-animate-opacity">
+    <table>
+      <tr>
+        <th id="Liste_Des_Fiches_Box">
+          <h2>Liste Des Fiches</h2>
+        </th>
+        <th id="search-box">
+          <input type="search" placeholder="Rechercher..." id="search-place"></input>
+        </th>
+        <th id="search-button-box">
+          <button class="material-icons" id="serach-button-img">search</button>
+        </th>
+      </tr>
+      <tr>
+        <td id="N_et_P_Box">
+          <h4>Nom et Prénom</h4>
+        </td>
+        <td colspan="2" id="N°_Box">
+          <h3>N°fiche:</h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Ficha-End.html">Mohamed Gimni</a>
+        </td>
+        <td colspan="2">85641</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="Ficha-End.html">Malik Salah</a>
+        </td>
+        <td colspan="2">21452</td>
+      </tr>
+    </table>
+    <button role="link" onclick="switch_to_New_Fiche()">Nouveau Patient</button>
+  </body>
+</html>
